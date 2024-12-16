@@ -1,26 +1,25 @@
-<img align="right" src="https://raw.githubusercontent.com/graphiks/woa-raphael/main/media/raphael.png" width="350" alt="Windows 11 Running On raphael">
-
+<img align="right" src="https://github.com/new-WoA-Raphael/woa-raphael/blob/main/media/raphaelbutnotass.png" width="350" alt="Windows 11 running on a Redmi K20 Pro">
 
 # Running Windows on the Xiaomi Mi 9T Pro / Redmi K20 Pro
 
 ## Project Status
-
-The project is in development. Expect some driver updates in the near future.
-
-
+This project has reached its final stages. Small improvements may be made, but don't expect major improvements (such as working camera)
 
 #### Features
-
-- [X] Audio 
-- [X] Battery status
+- [x] Audio (Speakers)
+- [x] Audio (3.5mm)
+- [x] Battery status
 - [x] Bluetooth
-- [x] Brightness 
+- [x] Brightness
 - [ ] Camera
-- [x] Cellular ```Only SIM1; requires provisioning before every boot; calling doesn't work```
-- [ ] Charging ```VERY slow```
+- [x] Charging ```VERY slow```
 - [x] Display
-- [x] GPU  ```Some artifacting due to lack of CMD```
-- [x] Touchscreen 
+- [ ] Flashlight
+- [x] GPU
+- [x] SMS
+- [x] Touchscreen
+- [x] LTE ```SIM card must be in SIM1 slot```
+- [x] Microphone
 - [x] UFS
 - [x] USB
 - [x] Wi-Fi
@@ -28,24 +27,23 @@ The project is in development. Expect some driver updates in the near future.
 #### Sensors
 - [x] Accelerometer
 - [ ] Fingerprint
-- [ ] GPS
-- [x] Gyroscope
+- [x] GPS
+- [ ] Gyroscope
 - [ ] Light sensor
 - [ ] Magnetometer
 - [ ] Proximity
 
 #### Security
-
 - [ ] Security Processor ```Impossible to get working, Xiaomi broke the firmware```
-- [ ] TPM (Software Backed)
+- [x] TPM (Software Backed)
 
-#### Panels
-- [x] dsi_ss_fh_ea8076_global_cmd ```Main support, most common```
-- [x] samsung-fhd-ea8076-f1mp-cmd ```Main support```
-- [x] samsung-fhd-ea8076-f1p2-cmd ```Slightly different to f1mp but still usable```
-- [ ] samsung-fhd-ea8076-f1p2_2-cmd ```Not tested```
-- [ ] samsung-fhd-ea8076-f1-cmd ```Not tested```
-- [ ] samsung-fhd-ea8076-cmd ```Not tested```
+
+
+
+
+
+
+
 
 
 

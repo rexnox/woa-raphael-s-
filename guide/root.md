@@ -1,7 +1,6 @@
-<img align="right" src="https://raw.githubusercontent.com/graphiks/woa-raphael/main/media/raphael.png" width="350" alt="Windows 11 Running On raphael">
+<img align="right" src="https://github.com/new-WoA-Raphael/woa-raphael/blob/main/media/raphaelbutnotass.png" width="350" alt="Windows 11 running on a Redmi K20 Pro">
 
-
-# Running Windows on the Redmi K20 Pro / Mi 9T Pro
+# Running Windows on the Xiaomi Mi 9T Pro / Redmi K20 Pro
 
 ## Root guide
 
@@ -10,22 +9,23 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [TWRP](https://github.com/graphiks/woa-raphael/releases/download/raphael-partitioning/twrp.img)
+- [Modified TWRP](https://github.com/n00b69/woa-raphael/releases/download/Files/modded-twrp-raphael.img)
 
-##### Boot TWRP
-> If your recovery has been replaced back to stock, flash it again in fastboot with:
+### Boot into TWRP
+> If your recovery has been replaced by the stock recovery, flash it again using
 ```cmd
-fastboot flash recovery path\to\twrp.img reboot recovery
+fastboot flash recovery path\to\modded-twrp-raphael.img reboot recovery
 ```
-##### Backing up your boot image
+
+#### Backing up your boot image
 > Sometimes flashing Magisk can cause a bootloop. To fix this, you'll need to restore a boot.img backup.
 
 Use the TWRP backup feature to make a backup of the boot partition.
 
-##### Flashing Magisk
-- Flash the magisk.apk (you may have to rename it to magisk.zip) and reboot your phone. 
-- Once booted, locate the Magisk app and open it.
-- Follow any instructions provided. Select the direct install method if you are provided with several methods.
+### Flashing Magisk
+- Flash the **magisk.apk** (you may have to rename it to magisk.zip) and reboot your phone. 
+- Once booted, locate the **Magisk** app and open it.
+- Follow any instructions provided. Select the **direct install** method if you are provided with several methods.
 
 Your phone will now reboot, and you have succesfully rooted it.
 
