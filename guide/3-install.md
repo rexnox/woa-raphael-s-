@@ -5,13 +5,13 @@
 ## Installing Windows
 
 ### Prerequisites
-- [Modified TWRP](https://github.com/n00b69/woa-raphael/releases/download/Files/modded-twrp-raphael.img) (should already be installed)
+- [Modified TWRP](https://github.com/new-WoA-Raphael/woa-raphael/releases/download/Files/modded-twrp-raphael.img) (should already be installed)
 
 - [Windows on ARM image](https://arkt-7.github.io/woawin/)
 
-- [Drivers](https://github.com/n00b69/woa-raphael/releases/tag/Drivers)
+- [Drivers](https://github.com/new-WoA-Raphael/woa-raphael/releases/tag/Drivers)
 
-- [UEFI image](https://github.com/n00b69/woa-raphael/releases/tag/UEFI)
+- [UEFI image](https://github.com/new-WoA-Raphael/woa-raphael/releases/tag/UEFI)
 
 ### Boot into TWRP
 > If your recovery has been replaced by the stock recovery, flash it again using
