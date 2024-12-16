@@ -53,6 +53,8 @@ All the files here have been contributed by other users, here you will find a gu
 [<img alt="Graphael" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/136170061?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/grphks)
 [<img alt="qaz6750" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/66907230?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/qaz6750)
 
+<img align="left" src="https://raw.githubusercontent.com/graphiks/woa-raphael/main/media/stickers.png" width="150" alt="approved"> 
+Halal beef approved ✅✅
 
 
 
