@@ -5,10 +5,10 @@
 ## Partitioning your device
 
 ### Prerequisites
+- A functioning brain (most important of all)
 - Unlocked bootloader
-
+- Preferably the latest firmware installed
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-
 - [Modified TWRP](https://github.com/n00b69/woa-raphael/releases/download/Files/modded-twrp-raphael.img)
 
 ### Notes
