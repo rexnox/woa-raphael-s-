@@ -7,9 +7,9 @@
 ### Prerequisites
 - [Stock fastboot rom](http://xmfirmwareupdater.com/miui/raphael/)
 
-- [EDL drivers](https://github.com/n00b69/woa-raphael/releases/download/Files/QUD.zip)
+- [EDL drivers](https://github.com/new-WoA-Raphael/woa-raphael/releases/download/Files/QUD.zip)
 
-- [Patched MiFlash](https://github.com/n00b69/woa-raphael/releases/download/Files/PatchedMiflashRaphael.zip)
+- [Patched MiFlash](https://github.com/new-WoA-Raphael/woa-raphael/releases/download/Files/PatchedMiflashRaphael.zip)
 
 ### Booting into EDL mode
 > [!Note]
