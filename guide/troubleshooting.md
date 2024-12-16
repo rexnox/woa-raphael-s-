@@ -1,41 +1,64 @@
-<img align="right" src="https://raw.githubusercontent.com/graphiks/woa-raphael/main/media/raphael.png" width="350" alt="Windows 11 Running On raphael">
+<img align="right" src="https://github.com/new-WoA-Raphael/woa-raphael/blob/main/media/raphaelbutnotass.png" width="350" alt="Windows 11 running on a Redmi K20 Pro">
 
-
-# Running Windows on the Mi 9T Pro / Redmi K20 Pro 
+# Running Windows on the Xiaomi Mi 9T Pro / Redmi K20 Pro
 
 ## Troubleshooting Issues
+> Below you will find a list of common problems and their solutions
+
+## Cannot mount Windows in Android
+If mounting Windows produces an empty folder, you either don't have Windows installed, or your rom does not have mount support.
+
+##### Done!
 
 
-## Cannot mount the Windows partition in Android or WoA Helper doesn't work
-> This is caused when you shut down Windows instead of restarting it.
+## Cannot write to Windows in Android
+> This is caused by shutting down Windows instead of restarting it.
 - To solve this, boot to Windows and then press "restart", then as the screen shuts off boot to TWRP and from there load up Android.
+- Or, disable hibernation in Windows.
 > Alternatively, if you have already set up the Switch to Android app, simply use this to switch to Android.
 
-## USB does not work
-Enable USB host mode using the optional [post install guide](postinstall.md).
-
-## Restoring the WiFi drivers
-- Copy the raphael drivers over to your device (preferably on the desktop)
-- Open the raphael drivers folder
-- Navigate to raphael-drivers-main\components\QC8150\Device\Raphael\DEVICE.SOC_QC8150.RAPHAEL\Extensions\Subsystems\
-- Rename "raphael_subextmpss.inf_" to "raphael_subextmpss.inf"; and right click on it and press Install (accept the driver signature popup)
-- Rename "raphael_subextscss.inf_" to "raphael_subextscss.inf"; also right click on it and press Install
-#### Finished!
+##### Done!
 
 
-## DISM Error:87 The add-driver option is unkown
-This usually means that you have an unclean Windows image with some other drivers. You need to get a clean Windows image (which means you didn't follow instructions).
+## Charging in Windows does not work
+> [!WARNING]
+> Do not use a powered USB hub with host mode enabled, this can potentially break your device. If you use a powered USB hub, please use the [disable USB host mode guide](/guide/English/Additional-materials-en.md#Disabling-USB-host-mode)
 
-## 0xc000021a BSOD
-This usually means that winlogon.exe has failed, and you may need to reapply the Windows image.
+Charging in Windows only works on specific cables. Cables that have been known to work are the original Poco X3 Pro cable (identified by the additional orange/red pin in the USB-A port), and the Nimaso 100W USB-C to USB-C fast charging cable.
 
-## The computer restarted unexpectedly or encountered an unexpected error
-If you stumble upon this error, you may need to redeploy the Windows image. Use the [reinstall guide](reinstall.md) for this.
+##### Done!
 
 
-## INACCESSIBLE_BOOT_DEVICE BSOD
-This Blue Screen of Death likely means some broken driver installation. To fix this, reinstall the drivers using the [reinstall guide](reinstall.md).
+## Device can boot into Android but not bootloader
+> This is caused by having partitions with a name longer  than 16 characters, such as **Basic data partition**, which has 20 characters
+- Reboot to the modded recovery and in the built-in terminal run
+```cmd
+parted /dev/block/sda
+```
+- Run ```print``` to list all partitions
+- Look for partitions that are more than 16 characters long, for example "Basic Data Partition" and note their volume number
+- Rename this partition with ```name $ test```, replacing **$** with the partition number, and replacing **test** with the name you want the partition to have
+- Run ```quit```
+- Reboot to bootloader in the reboot menu to check if fastboot works again
 
-## My screen is dimmer than before
-A weird workaround for this... is to just press the power button to put the phone to sleep, and again to wake it. Just works for some reason.
+##### Done!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
