@@ -61,8 +61,8 @@ exit
 ```
 
 ### Installing Windows
-> [!Warning]
-> Don't use 24H2, if you want a literal brick 
+> [!Important]
+> For performance reasons, it is recommended to use Windows 11 24H2 (builds that start with 261XX, such as 26100.2454)
 
 > Replace `path\to\install.esd` with the actual path of install.esd (it may also be named install.wim or 22631.2861.XXXXXXX.esd)
 
