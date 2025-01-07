@@ -13,7 +13,7 @@
   
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [Modified TWRP](https://github.com/new-WoA-Raphael/woa-raphael/releases/tag/Recovery)
+- [Modified TWRP](https://github.com/new-WoA-Raphael/woa-raphael/releases/download/Files/modded-twrp-raphael.img)
 
 ### Notes
 > [!WARNING]  
