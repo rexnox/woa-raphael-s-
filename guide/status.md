@@ -29,7 +29,7 @@ This project has reached its final stages. Small improvements may be made, but d
 - [ ] Fingerprint
 - [x] GPS
 - [ ] Gyroscope
-- [ ] Light sensor
+- [x] Light sensor
 - [ ] Magnetometer
 - [ ] Proximity
 
