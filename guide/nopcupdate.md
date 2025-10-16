@@ -1,11 +1,11 @@
 <img align="right" src="https://github.com/new-WoA-Raphael/woa-raphael/blob/main/media/raphaelbutnotass.png" width="350" alt="Windows 11 running on a Redmi K20 Pro">
 
-# Running Windows on the Xiaomi Mi 9T Pro / Redmi K20 Pro
+# Running Windows on the Redmi K20 Pro Premium
 
 ## Updating drivers without a PC
 
 ### Prerequisites
-- A rooted Xiaomi Mi 9T Pro / Redmi K20 Pro
+- A rooted Redmi K20 Pro Premium
 
 - [Modified TWRP](https://github.com/new-WoA-Raphael/woa-raphael/releases/download/Files/modded-twrp-raphael.img)
 

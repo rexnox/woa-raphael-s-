@@ -1,4 +1,4 @@
-# Running Windows on the Xiaomi Mi 9T Pro / Redmi K20 Pro
+# Running Windows on the Redmi K20 Pro Premium
 
 ## Update selection
 There are two methods to update drivers. Select the method you would like to use below.
