@@ -16,7 +16,7 @@ This project has reached its final stages. Small improvements may be made, but d
 - [x] Display
 - [ ] Flashlight
 - [x] GPU
-- [x] SMS & ```Does not work in 24H2```
+- [x] SMS
 - [x] Touchscreen
 - [x] LTE ```SIM card must be in SIM1 slot``` & ```LTE only works indirectly after manually installing the ACPI/QCOM05CE=Qualcomm Power Management PMIC Extension Device```
 - [x] Microphone
@@ -36,6 +36,7 @@ This project has reached its final stages. Small improvements may be made, but d
 #### Security
 - [ ] Security Processor ```Impossible to get working, Xiaomi broke the firmware```
 - [x] TPM (Software Backed) ```Problematic with Windows 11 25H2 26200.7XXX or higher!```
+
 
 
 
